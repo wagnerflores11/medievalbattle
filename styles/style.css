@@ -61,3 +61,22 @@ h1{
     left: 0;
     right: 0;
 }
+
+.restart {
+
+    background-color: #4CAF50; /* Green */
+    border: 1px solid green;
+    color: white;
+    padding: 8px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+  
+  }
+  
+  .restart:hover {
+    background-color: #3e8e41;
+  }
+  

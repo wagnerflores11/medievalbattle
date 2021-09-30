@@ -9,13 +9,27 @@ document.addEventListener('DOMContentLoaded', () => {
     })
 })
 
-
+//
 function handeClick(event){
+
     let square = event.target;
     let position = square.id;
 
-    handleMove(position);
-    updateSquares();
+    if(handleMove(position)){       
+
+        setTimeout(() =>{
+            alert('O jogo acabou - Player Vencedor ' + playerTime)
+        }, 10)
+        
+    }
+
+    updateSquares(position);
+}
+
+function updateSquares(position){
+    let square = document.getElementById(position.toString());
+    let symbol = board[position];
+    square.innerHTML = `<div class='${symbol}'></div>'`
 }
 
 function updateSquares(){
@@ -24,7 +38,17 @@ function updateSquares(){
 
     squares.forEach((square)=>{
         let position = square.id;
-        let symbol = board[position]
+        let symbol = board[position];
+
+        if(symbol != ''){
+            square.innerHTML = `<div class='${symbol}'></div>`
+        }
 
     })
 }
+
+function restartGame() {        
+        
+        window.location.reload()         
+
+ }
