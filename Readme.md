@@ -1,4 +1,4 @@
-# Churrascômetro
+# JOGO DA VELHA
 
 
 <img src="./img/tela2.JPG" alt="imagem">
@@ -14,9 +14,9 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 * Você instalou a versão mais recente de `NODE`
 
 
-## ☕ Usando <churrascômetro>
+## ☕ Usando <JOGO DA VELHA>
 
-Para usar <churrascômetro>, siga estas etapas:
+Para usar <JOGO DA VELHA>, siga estas etapas:
 
 ```
 NPM START
