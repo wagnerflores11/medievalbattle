@@ -1,7 +1,7 @@
 # Churrascômetro
 
 
-<img src="./img/tela.JPG" alt="imagem">
+<img src="./img/tela2.JPG" alt="imagem">
 
 * JOGO DA VELHA
 
